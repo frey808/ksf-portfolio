@@ -1,2 +1,3 @@
 # ksf-portfolio
-repository of exceptional works
+Portfolio website for Sunshine Development
+by Kai Sunshine Frazier
