@@ -2,9 +2,9 @@ import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackGround } from "@/components/StarBackGround"
 import { NavBar } from "@/components/NavBar"
 import { HeroSection } from "@/components/HeroSection"
-// import { AboutSection } from "@/components/AboutSection"
+import { AboutSection } from "@/components/AboutSection"
 // import { SkillsSection } from "@/components/SkillsSection"
-// import { ProjectsSection } from "@/components/ProjectsSection"
+import { ProjectsSection } from "@/components/ProjectsSection"
 // import { ContactSection } from "@/components/ContactSection"
 
 export const Home = () => {
@@ -22,10 +22,10 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        {/* <AboutSection />
-        <SkillsSection />
+        <AboutSection />
+        {/* <SkillsSection /> */}
         <ProjectsSection />
-        <ContactSection /> */}
+        {/* <ContactSection /> */}
       </main>
 
       {/* Footer */}

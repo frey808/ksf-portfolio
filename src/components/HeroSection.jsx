@@ -1,3 +1,4 @@
+import { ArrowDown } from "lucide-react"
 
 
 export const HeroSection = () => {
@@ -11,13 +12,22 @@ export const HeroSection = () => {
             <span className="text-foreground opacity-0 animate-fade-in-delay-2">Frazier</span>
           </h1>
 
-          <p>
-            <span className="text-foreground/80 opacity-0 animate-fade-in-delay-3">
-              I'm a software and firmware engineer specializing in embedded systems, graphics programming,
-              and web development. I love building things that are both beautiful and functional.
-            </span>
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I'm a software and firmware engineer specializing in embedded systems, graphics programming,
+            and web development. I love building things that are both beautiful and functional.
           </p>
+
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="#projects" className="custom-button">
+              View My Work
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-0 animate-fade-in-delay-4">
+        <span className="text-sm text-muted-foreground"> Scroll </span>
+        <ArrowDown className="text-primary h-5 w-5 text-primary" />
       </div>
     </section>
   )
