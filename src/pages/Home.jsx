@@ -14,19 +14,19 @@ export const Home = () => {
       <ThemeToggle />
 
       {/* Background Effects */}
-      <StarBackGround />
+      {/* <StarBackGround /> */}
 
       {/* Navbar */}
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Main Content */}
-      <main>
+      {/* <main>
         <HeroSection />
-        {/* <AboutSection />
+        <AboutSection />
         <SkillsSection />
         <ProjectsSection />
-        <ContactSection /> */}
-      </main>
+        <ContactSection />
+      </main> */}
 
       {/* Footer */}
     </div>
