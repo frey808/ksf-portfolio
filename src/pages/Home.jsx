@@ -17,7 +17,7 @@ export const Home = () => {
       <StarBackGround />
 
       {/* Navbar */}
-      {/* <NavBar /> */}
+      <NavBar />
 
       {/* Main Content */}
       {/* <main>
