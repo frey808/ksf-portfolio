@@ -20,13 +20,13 @@ export const Home = () => {
       <NavBar />
 
       {/* Main Content */}
-      {/* <main>
+      <main>
         <HeroSection />
-        <AboutSection />
+        {/* <AboutSection />
         <SkillsSection />
         <ProjectsSection />
-        <ContactSection />
-      </main> */}
+        <ContactSection /> */}
+      </main>
 
       {/* Footer */}
     </div>
