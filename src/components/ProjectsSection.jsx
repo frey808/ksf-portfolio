@@ -4,25 +4,25 @@ import { ArrowRight, Link2 } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Autonomous Camera Robot",
-    description: "Robot camera",
-    image: "/projects/camera-robot.jpg",
-    tags: ["C++", "ROS", "Computer Vision"],
-    githubUrl: "#"
+    title: "Cameraperson Robot",
+    description: "An old educational robotic arm repurposed into an autonomous camera operator for improved video production",
+    image: "public\\projects\\bluey_and_unc.jpg",
+    tags: ["Open Source", "C++", "Robotics"],
+    githubUrl: "https://github.com/talos-rit"
   },
   {
     id: 2,
-    title: "MIDI Player",
-    description: "Robot camera",
-    image: "/projects/camera-robot.jpg",
-    tags: ["C++", "ROS", "Computer Vision"],
-    githubUrl: "#"
+    title: "Rendering Engine",
+    description: "A CPU-based rasterizer built from scratch in Python, executing traditional graphics rendering pipelines",
+    image: "public\\projects\\twilight_mountains.jpg",
+    tags: ["Graphics", "Python", "3D Rendering"],
+    githubUrl: "https://github.com/frey808/rasterization-engine"
   },
   {
     id: 3,
-    title: "Allos",
-    description: "Robot camera",
-    image: "/projects/camera-robot.jpg",
+    title: "Soundtracker",
+    description: "An AI-powered mobile app that produces Spotify playlists tailored to your current activity, based on a photo",
+    image: "public\\projects\\soundtracker.jpg",
     tags: ["C++", "ROS", "Computer Vision"],
     githubUrl: "#"
   }
@@ -60,7 +60,7 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                <h3 className="text-primary text-xl font-semibold mb-1">{project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>

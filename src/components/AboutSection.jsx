@@ -11,17 +11,22 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Aspiring Graphics Engineer</h3>
+            <h3 className="text-2xl font-semibold">Aspiring GPU Engineer</h3>
 
             <p className="text-muted-foreground">
-              blah blah blah
+                My favorite part of programming is creating something unique - 
+                whether it's a rendered scene, a physical device, or an interactive 
+                website. I love working on projects that combine creativity and 
+                technical skill, and I strive to write efficient, maintainable code.
             </p>
 
             <p className="text-muted-foreground">
-              blah blah blah
+              I'm currently seeking a full-time position as a firmware engineer, 
+              web developer, or graphics programmer. My dream job would be working 
+              on GPU firmware or graphics drivers!
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+            {/* <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="custom-button">
                 Contact Me
               </a>
@@ -29,7 +34,7 @@ export const AboutSection = () => {
               <a href="TODO link to CV" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                 Download my CV
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div className="grid grid-cols-1 gap-6">
@@ -40,9 +45,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Coding Skills</h4>
+                  <h4 className="text-lg font-semi-bold"> Embedded Systems </h4>
                   <p className="text-muted-foreground">
-                    C/C++, Rust, Python, JavaScript, GLSL, HLSL
+                    Writing efficient, reliable firmware for performance-critical environments.
                   </p>
                 </div>
               </div>
@@ -54,9 +59,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Coding Skills</h4>
+                  <h4 className="text-lg font-semi-bold"> Graphics </h4>
                   <p className="text-muted-foreground">
-                    C/C++, Rust, Python, JavaScript, GLSL, HLSL
+                    Creating stunning visual effects and constructing scenes using math.
                   </p>
                 </div>
               </div>
@@ -68,9 +73,9 @@ export const AboutSection = () => {
                 </div>
                   
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Coding Skills</h4>
+                  <h4 className="text-lg font-semi-bold"> Web Development </h4>
                   <p className="text-muted-foreground">
-                    C/C++, Rust, Python, JavaScript, GLSL, HLSL
+                    Building responsive and aesthetic web applications using modern frameworks.
                   </p>
                 </div>
               </div>
