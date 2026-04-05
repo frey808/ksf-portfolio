@@ -1,4 +1,7 @@
 import { ArrowRight, Link2 } from "lucide-react"
+import bluey_and_unc from "@/assets/bluey_and_unc.jpg"
+import twilight_mountains from "@/assets/twilight_mountains.jpg"
+import soundtracker from "@/assets/soundtracker_logo.jpg"
 
 
 const projects = [
@@ -6,7 +9,7 @@ const projects = [
     id: 1,
     title: "Cameraperson Robot",
     description: "An old educational robotic arm repurposed into an autonomous camera operator for improved video production",
-    image: "public\\projects\\bluey_and_unc.jpg",
+    image: bluey_and_unc,
     tags: ["Open Source", "C++", "Robotics"],
     githubUrl: "https://github.com/talos-rit"
   },
@@ -14,7 +17,7 @@ const projects = [
     id: 2,
     title: "Rendering Engine",
     description: "A CPU-based rasterizer built from scratch in Python, executing traditional graphics rendering pipelines",
-    image: "public\\projects\\twilight_mountains.jpg",
+    image: twilight_mountains,
     tags: ["Graphics", "Python", "3D Rendering"],
     githubUrl: "https://github.com/frey808/rasterization-engine"
   },
@@ -22,8 +25,8 @@ const projects = [
     id: 3,
     title: "Soundtracker",
     description: "An AI-powered mobile app that produces Spotify playlists tailored to your current activity, based on a photo",
-    image: "public\\projects\\soundtracker.jpg",
-    tags: ["C++", "ROS", "Computer Vision"],
+    image: soundtracker,
+    tags: ["UI/UX", "AI-Powered", "APIs"],
     githubUrl: "#"
   }
 ]
