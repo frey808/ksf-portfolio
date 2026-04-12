@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react"
+import { Code, Cpu, Terminal } from "lucide-react"
 
 
 export const AboutSection = () => {
@@ -6,76 +6,70 @@ export const AboutSection = () => {
     <section id="about" className="py-20 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary">Me</span>  
+          About <span className="text-primary">Me</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Aspiring GPU Engineer</h3>
+            <h3 className="text-2xl font-semibold">Firmware & Embedded Systems Engineer</h3>
 
             <p className="text-muted-foreground">
-                My favorite part of programming is creating something unique - 
-                whether it's a rendered scene, a physical device, or an interactive 
-                website. I love working on projects that combine creativity and 
-                technical skill, and I strive to write efficient, maintainable code.
+              I see engineering as a fractal — no matter how deeply you look at a 
+              system, there's another layer of intentional complexity beneath it. 
+              That belief shapes how I approach problems: the best solution 
+              always comes from understanding the underlying mechanics.
             </p>
 
             <p className="text-muted-foreground">
-              I'm currently seeking a full-time position as a firmware engineer, 
-              web developer, or graphics programmer. My dream job would be working 
-              on GPU firmware or graphics drivers!
+              I specialize in real-time embedded systems, low-level C/C++, and 
+              hardware-software integration. I've shipped firmware professionally 
+              at Biamp Systems and built open source embedded control systems 
+              involving FreeRTOS, I2C peripherals, and hands-on debugging.
+              I'm currently seeking entry-level firmware and embedded systems roles.
             </p>
-
-            {/* <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="custom-button">
-                Contact Me
-              </a>
-
-              <a href="TODO link to CV" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                Download my CV
-              </a>
-            </div> */}
           </div>
-          
+
           <div className="grid grid-cols-1 gap-6">
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Code className="text-primary h-6 w-6" />
                 </div>
-
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Embedded Systems </h4>
+                  <h4 className="text-lg font-semi-bold">Real-Time Systems</h4>
                   <p className="text-muted-foreground">
-                    Writing efficient, reliable firmware for performance-critical environments.
+                    Building deterministic, interrupt-driven firmware in C using FreeRTOS 
+                    on ESP32 and STM32 platforms.
                   </p>
                 </div>
               </div>
             </div>
+
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="text-primary h-6 w-6" />
+                  <Cpu className="text-primary h-6 w-6" />
                 </div>
-
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Graphics </h4>
+                  <h4 className="text-lg font-semi-bold">Hardware Integration</h4>
                   <p className="text-muted-foreground">
-                    Creating stunning visual effects and constructing scenes using math.
+                    Interfacing with peripherals over I2C and UART, with hands-on debugging 
+                    experience using oscilloscopes, multimeters, and packet sniffers.
                   </p>
                 </div>
               </div>
             </div>
+
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="text-primary h-6 w-6" />
+                  <Terminal className="text-primary h-6 w-6" />
                 </div>
-                  
                 <div className="text-left">
-                  <h4 className="text-lg font-semi-bold"> Web Development </h4>
+                  <h4 className="text-lg font-semi-bold">Systems & Networking</h4>
                   <p className="text-muted-foreground">
-                    Building responsive and aesthetic web applications using modern frameworks.
+                    Professional experience with Linux-based firmware development, 
+                    networking protocols, and team tooling.
                   </p>
                 </div>
               </div>

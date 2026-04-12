@@ -13,8 +13,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I'm a software and firmware engineer specializing in embedded systems, graphics programming,
-            and web development. I love building things that are both beautiful and functional.
+            Software and firmware engineer specializing in embedded systems, real-time control,
+            and low-level hardware integration. I build reliable systems in performance-critical environments.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
