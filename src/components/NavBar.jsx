@@ -3,11 +3,11 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react"
 
 const navItems = [
-  {name: "Home:", href: "#hero"},
-  {name: "About:", href: "#about"},
-  {name: "Skills:", href: "#skills"},
-  {name: "Projects:", href: "#projects"},
-  {name: "Contact:", href: "#contact"},
+  {name: "Home", href: "#hero"},
+  {name: "About", href: "#about"},
+  // {name: "Skills", href: "#skills"},
+  {name: "Projects", href: "#projects"},
+  {name: "Contact", href: "#contact"},
 ]
 
 export const NavBar = () => {
@@ -39,7 +39,7 @@ export const NavBar = () => {
         </a>
 
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-10">
           {navItems.map((item, key) => (
             <a
               key={key}

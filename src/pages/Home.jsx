@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/HeroSection"
 import { AboutSection } from "@/components/AboutSection"
 // import { SkillsSection } from "@/components/SkillsSection"
 import { ProjectsSection } from "@/components/ProjectsSection"
-// import { ContactSection } from "@/components/ContactSection"
+import { ContactSection } from "@/components/ContactSection"
 
 export const Home = () => {
   return (
@@ -13,7 +13,7 @@ export const Home = () => {
       {/* Theme Toggle */}
       <ThemeToggle />
 
-      {/* Background Effects */}
+      {/* Background */}
       <StarBackGround />
 
       {/* Navbar */}
@@ -25,7 +25,7 @@ export const Home = () => {
         <AboutSection />
         {/* <SkillsSection /> */}
         <ProjectsSection />
-        {/* <ContactSection /> */}
+        <ContactSection />
       </main>
 
       {/* Footer */}

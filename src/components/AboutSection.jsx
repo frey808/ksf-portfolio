@@ -27,6 +27,12 @@ export const AboutSection = () => {
               involving FreeRTOS, I2C peripherals, and hands-on debugging.
               I'm currently seeking entry-level firmware and embedded systems roles.
             </p>
+
+            <div className="pt-4">
+              <a href="#contact" className="custom-button">
+                Get In Touch
+              </a>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 gap-6">

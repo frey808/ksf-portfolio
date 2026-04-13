@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import { ArrowRight, Link2, Volume2, VolumeX } from "lucide-react"
+import { FaGithub } from "react-icons/fa"
 import bluey_homing from "@/assets/bluey_homing.mp4"
 
 
@@ -119,7 +120,7 @@ export const ProjectsSection = () => {
                   className="text-foreground/80 hover:text-primary flex items-center gap-2 transition-colors duration-300"
                 >
                   <span>GitHub</span>
-                  <Link2 size={16} />
+                  <FaGithub size={16} />
                 </a>
               </div>
             </div>
@@ -147,7 +148,7 @@ export const ProjectsSection = () => {
                 className="text-foreground/80 hover:text-primary flex items-center gap-1 mt-4 text-xs transition-colors duration-300"
               >
                 <span>GitHub</span>
-                <Link2 size={12} />
+                <FaGithub size={12} />
               </a>
             </div>
           ))}
